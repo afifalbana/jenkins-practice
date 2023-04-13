@@ -11,7 +11,7 @@ pipeline {
 
     stage('Run CMD: Update APT') {
       steps {
-        sh 'sudo apt update'
+        sh 'which ansible'
       }
     }
 
